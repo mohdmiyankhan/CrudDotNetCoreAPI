@@ -55,10 +55,10 @@ namespace CrudDotNetCoreApi.Controllers
                 {
                     Message = "An error occurred while processing your request.",
                     Result = false,
-                    Error = ex.Message // Optionally, use ex.ToString() for more detailed stack trace
+                    Error = ex.Message // Optionally, use ex.ToString() for more detailed stack trace.
                 };
                 return Ok(errorResponse);
-                //return StatusCode(500, errorResponse); // Return 500 for server error
+                //return StatusCode(500, errorResponse); // Return 500 for server error.
             }
         }
 
@@ -85,10 +85,10 @@ namespace CrudDotNetCoreApi.Controllers
                 {
                     Message = "An error occurred while processing your request.",
                     Result = false,
-                    Error = ex.Message // Optionally, use ex.ToString() for more detailed stack trace
+                    Error = ex.Message // Optionally, use ex.ToString() for more detailed stack trace.
                 };
                 return Ok(errorResponse);
-                //return StatusCode(500, errorResponse); // Return 500 for server error
+                //return StatusCode(500, errorResponse); // Return 500 for server error.
             }
         }
 
@@ -127,10 +127,10 @@ namespace CrudDotNetCoreApi.Controllers
                 {
                     Message = "An error occurred while processing your request.",
                     Result = false,
-                    Error = ex.Message // Optionally, use ex.ToString() for more detailed stack trace
+                    Error = ex.Message // Optionally, use ex.ToString() for more detailed stack trace.
                 };
                 return Ok(errorResponse);
-                //return StatusCode(500, errorResponse); // Return 500 for server error
+                //return StatusCode(500, errorResponse); // Return 500 for server error.
             }
         }
 
@@ -155,10 +155,10 @@ namespace CrudDotNetCoreApi.Controllers
                 {
                     Message = "An error occurred while processing your request.",
                     Result = false,
-                    Error = ex.Message // Optionally, use ex.ToString() for more detailed stack trace
+                    Error = ex.Message // Optionally, use ex.ToString() for more detailed stack trace.
                 };
                 return Ok(errorResponse);
-                //return StatusCode(500, errorResponse); // Return 500 for server error
+                //return StatusCode(500, errorResponse); // Return 500 for server error.
             }
         }
 
@@ -183,10 +183,10 @@ namespace CrudDotNetCoreApi.Controllers
                 {
                     Message = "An error occurred while processing your request.",
                     Result = false,
-                    Error = ex.Message // Optionally, use ex.ToString() for more detailed stack trace
+                    Error = ex.Message // Optionally, use ex.ToString() for more detailed stack trace.
                 };
                 return Ok(errorResponse);
-                //return StatusCode(500, errorResponse); // Return 500 for server error
+                //return StatusCode(500, errorResponse); // Return 500 for server error.
             }
         }
     }
